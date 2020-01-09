@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, NavItem, Form, FormControl, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './CustomNavbar.css';
 
 export default class CustomNavbar extends Component {
     render() {
@@ -9,9 +10,9 @@ export default class CustomNavbar extends Component {
   <Navbar bg="dark" variant="dark">
     <Navbar.Brand href="#home">CodeLife</Navbar.Brand>
     <Nav className="mr-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
+      <Nav.Link href="/about">About</Nav.Link>
+      <Nav.Link href="/news">News</Nav.Link>
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
@@ -26,9 +27,9 @@ export default class CustomNavbar extends Component {
     <Navbar.Toggle />
     <Navbar.Collapse>
       <Nav pullRight>
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/about">About</Nav.Link>
+        <Nav.Link href="/news">News</Nav.Link>
       </Nav>
     </Navbar.Collapse>
     <Form inline>
