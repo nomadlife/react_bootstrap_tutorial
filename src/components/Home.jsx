@@ -16,18 +16,18 @@ export default class Home extends Component {
                 </Jumbotron>
                 <Row className="show-grid text-center">
                     <Col xs={12} sm={4} className="person-wrapper">
-                        <Image src="assets/mountain-1.jpg" circle className="profile-pic"/>
+                        <Image src="assets/mountain-1.jpg" roundedCircle className="profile-pic"/>
                         <h3>Frank</h3>
                         <p>That's a crooked tree</p>
                     </Col>
                     <Col xs={12} sm={4} className="person-wrapper">
-                        <Image src="assets/mountain-2.jpg" circle className="profile-pic"/>
-                        <h3>Frank</h3>
+                        <Image src="assets/mountain-2.jpg" roundedCircle className="profile-pic"/>
+                        <h3>Vanessa</h3>
                         <p>That's a crooked tree</p>
                     </Col>
                     <Col xs={12} sm={4} className="person-wrapper">
-                        <Image src="assets/mountain-3.jpg" circle className="profile-pic"/>
-                        <h3>Frank</h3>
+                        <Image src="assets/mountain-3.jpg" thumbnail className="profile-pic"/>
+                        <h3>Riff</h3>
                         <p>That's a crooked tree</p>
                     </Col>
                 </Row>
